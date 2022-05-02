@@ -2,12 +2,20 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   lang: "zh-CN",
-  title: "ARMPC™",
+  title: " ",
   description: "你的下一台个人电脑, 由 ARM® 驱动",
   lastUpdated: true,
 
+  head: [
+    [
+      "link",
+      { rel: "icon", href: "/logo.svg", size: "any", type: "image/svg+xml" },
+    ],
+  ],
+
   themeConfig: {
-    repo: "initdc/armpc-vitepress",
+    logo: "/logo.svg",
+    repo: "initdc/marspc-vitepress",
     docsDir: "docs",
     docsBranch: "master",
     editLinks: true,
@@ -36,7 +44,7 @@ export default defineConfig({
       },
       {
         text: "路线",
-        link: "https://github.com/initdc/armpc-vitepress/projects",
+        link: "https://github.com/initdc/marspc-vitepress/projects",
       },
     ],
 
