@@ -3,6 +3,9 @@
     "*": "prettier -wu ."
   },
   "scripts": {
+    "dev": "vitepress dev docs --no-cache",
+    "build": "vitepress build docs --no-cache",
+    "serve": "vitepress serve docs",
     "commit": "commit",
     "fmt:c": "prettier -cu .",
     "fmt:w": "prettier -wu .",
@@ -19,7 +22,7 @@
     "rel:v:p": "standard-version --release-as patch",
     "pub:g": "conventional-github-releaser -v",
     "pub:n": "npm publish",
-    "postinstall": "pnpm husky install"
+    "postinstall": "npx husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
@@ -29,6 +32,7 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.2.2",
     "prettier": "^2.5.1",
-    "standard-version": "^9.3.2"
+    "standard-version": "^9.3.2",
+    "vitepress": "^0.22.3"
   }
 }
