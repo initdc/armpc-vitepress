@@ -48,34 +48,34 @@ export default defineConfig({
       },
     ],
 
-    sidebar: {
-      "/specs/": getSpecsSidebar(),
-      "/guide/": getGuideSidebar(),
-      "/resources/": getResourcesSidebar(),
-    },
+    // sidebar: {
+    //   "/specs/": getSpecsSidebar(),
+    //   "/guide/": getGuideSidebar(),
+    //   "/resources/": getResourcesSidebar(),
+    // },
   },
 });
 
-function getSpecsSidebar() {
-  return [
-    {
-      children: [{ text: "目录", link: "/specs/#目录" }],
-    },
-  ];
-}
+// function getSpecsSidebar() {
+//   return [
+//     {
+//       children: [{ text: "目录", link: "/specs/#目录" }],
+//     },
+//   ];
+// }
 
-function getGuideSidebar() {
-  return [
-    {
-      children: [{ text: "刷写固件", link: "/guide/flash" }],
-    },
-  ];
-}
+// function getGuideSidebar() {
+//   return [
+//     {
+//       children: [{ text: "刷写固件", link: "/guide/flash" }],
+//     },
+//   ];
+// }
 
-function getResourcesSidebar() {
-  return [
-    {
-      children: [{ text: "源码", link: "/resources/source-code" }],
-    },
-  ];
-}
+// function getResourcesSidebar() {
+//   return [
+//     {
+//       children: [{ text: "源码", link: "/resources/source-code" }],
+//     },
+//   ];
+// }

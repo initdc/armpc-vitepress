@@ -3,7 +3,7 @@ home: true
 # heroAlt: Logo image
 # heroImage: /images/hero-bg.jpg
 heroText: MARS A1
-tagline: 你的下一台个人电脑!
+tagline: 探索未知, 进无止境
 actionText: 敬请期待
 actionLink: /
 features:
