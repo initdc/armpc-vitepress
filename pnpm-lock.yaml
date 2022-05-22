@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   "@commitlint/cli": ^15.0.0
@@ -221,6 +221,19 @@ packages:
       }
     engines: { node: ">=6.0.0" }
     hasBin: true
+    dependencies:
+      "@babel/types": 7.18.0
+    dev: true
+
+  /@babel/types/7.18.0:
+    resolution:
+      {
+        integrity: sha512-vhAmLPAiC8j9K2GnsnLPCIH5wCrPpYIVBCWRBFDCB7Y/BXLqi/O+1RSTTM2bsmg6U/551+FCf9PNPxjABmxHTw==,
+      }
+    engines: { node: ">=6.9.0" }
+    dependencies:
+      "@babel/helper-validator-identifier": 7.16.7
+      to-fast-properties: 2.0.0
     dev: true
 
   /@commitlint/cli/15.0.0:
@@ -316,7 +329,7 @@ packages:
       "@commitlint/execute-rule": 15.0.0
       "@commitlint/resolve-extends": 15.0.0
       "@commitlint/types": 15.0.0
-      "@endemolshinegroup/cosmiconfig-typescript-loader": 3.0.2_240953bde0fc81a855f7b4b522af054d
+      "@endemolshinegroup/cosmiconfig-typescript-loader": 3.0.2_eqevhppa7sa2qvpxws2sflyfju
       chalk: 4.1.2
       cosmiconfig: 7.0.1
       lodash: 4.17.21
@@ -480,7 +493,7 @@ packages:
       - "@algolia/client-search"
     dev: true
 
-  /@endemolshinegroup/cosmiconfig-typescript-loader/3.0.2_240953bde0fc81a855f7b4b522af054d:
+  /@endemolshinegroup/cosmiconfig-typescript-loader/3.0.2_eqevhppa7sa2qvpxws2sflyfju:
     resolution:
       {
         integrity: sha512-QRVtqJuS1mcT56oHpVegkKBlgtWjXw/gHNWO3eL9oyB5Sc7HBoc2OLG/nYpVfT/Jejvo3NUrD0Udk7XgoyDKkA==,
@@ -514,10 +527,26 @@ packages:
     engines: { node: ">=4" }
     dev: true
 
+  /@types/keyv/3.1.4:
+    resolution:
+      {
+        integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==,
+      }
+    dependencies:
+      "@types/node": 17.0.35
+    dev: true
+
   /@types/minimist/1.2.2:
     resolution:
       {
         integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==,
+      }
+    dev: true
+
+  /@types/node/17.0.35:
+    resolution:
+      {
+        integrity: sha512-vu1SrqBjbbZ3J6vwY17jBs8Sr/BKA+/a/WtjRG+whKg1iuLFOosq872EXS0eXWILdO36DHQQeku/ZcL6hz2fpg==,
       }
     dev: true
 
@@ -533,6 +562,15 @@ packages:
       {
         integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==,
       }
+    dev: true
+
+  /@types/responselike/1.0.0:
+    resolution:
+      {
+        integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==,
+      }
+    dependencies:
+      "@types/node": 17.0.35
     dev: true
 
   /@vitejs/plugin-vue/2.3.1_vite@2.9.6+vue@3.2.33:
@@ -1415,6 +1453,8 @@ packages:
       semver: 5.7.1
       semver-regex: 2.0.0
       through2: 2.0.5
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /conventional-recommended-bump/6.1.0:
@@ -1516,6 +1556,11 @@ packages:
       {
         integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==,
       }
+    peerDependencies:
+      supports-color: "*"
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
     dependencies:
       ms: 2.1.3
     dev: true
@@ -2231,6 +2276,8 @@ packages:
     engines: { node: ">=4" }
     dependencies:
       "@sindresorhus/is": 0.7.0
+      "@types/keyv": 3.1.4
+      "@types/responselike": 1.0.0
       cacheable-request: 2.1.4
       decompress-response: 3.3.0
       duplexer3: 0.1.4
@@ -4253,6 +4300,11 @@ packages:
     engines: { node: ">=0.6.0" }
     dependencies:
       os-tmpdir: 1.0.2
+    dev: true
+
+  /to-fast-properties/2.0.0:
+    resolution: { integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4= }
+    engines: { node: ">=4" }
     dev: true
 
   /to-regex-range/5.0.1:

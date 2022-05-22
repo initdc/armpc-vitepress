@@ -1,14 +1,14 @@
 {
   "lint-staged": {
-    "*": "prettier -wu ."
+    "*": "prettier -wu **/*.md"
   },
   "scripts": {
     "dev": "vitepress dev docs --no-cache",
     "build": "vitepress build docs --no-cache",
     "serve": "vitepress serve docs",
     "commit": "commit",
-    "fmt:c": "prettier -cu .",
-    "fmt:w": "prettier -wu .",
+    "fmt:c": "prettier -cu **/*.md",
+    "fmt:w": "prettier -wu **/*.md",
     "rel": "standard-version --help",
     "rel:d": "standard-version --dry-run",
     "rel:d:as": "standard-version --dry-run --release-as",

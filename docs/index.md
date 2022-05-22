@@ -4,8 +4,8 @@ home: true
 # heroImage: /images/hero-bg.jpg
 heroText: MARS A1
 tagline: 探索未知, 进无止境
-actionText: 敬请期待
-actionLink: /
+actionText: 预售中
+actionLink: /sell
 features:
   - title: 强劲性能
     details: 瑞芯微 RK3399 6核 64位 (Cortex-A72×2 + Cortex-A53×4) 处理器
