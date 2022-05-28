@@ -23,9 +23,9 @@ export default defineConfig({
     lastUpdated: "最后更新",
 
     algolia: {
-      appId: "8J64VVRP8K",
-      apiKey: "a18e2f4cc5665f6602c5631fd868adfd",
-      indexName: "vitepress",
+      appId: "0XKI6FU8LW",
+      apiKey: "5a90505348e0e2e30449dece03ba1396",
+      indexName: "docs",
     },
 
     // carbonAds: {

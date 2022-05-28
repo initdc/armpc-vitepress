@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 ## 壁纸
 
 以下壁纸已内置于 Ubuntu 镜像中
