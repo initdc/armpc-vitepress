@@ -6,6 +6,10 @@ sidebar: false
 
 ## 微店
 
+- 首发优惠券 (微信可扫)
+
+<img alt="coupon" height="625px" src="/images/sell/coupon_100pcs_5.30.png">
+
 - 链接
 
   MARS A1 主机 - 探索未知, 进无止境
